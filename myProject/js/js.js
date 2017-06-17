@@ -107,11 +107,11 @@ $(function(){
 			$("#intro .leftmove").addClass("fadeInRight");
 			$("#intro .rightmove").addClass("fadeInLeft");
 		}
-		if(body.scrollTop>=900&&body.scrollTop<=2000){
+		if(body.scrollTop>=1000&&body.scrollTop<=2000){
 			$("#feature .leftmove").addClass("fadeInRight");
 			$("#feature .rightmove").addClass("fadeInLeft");
 		}
-		if(body.scrollTop>=1400&&body.scrollTop<=2400){
+		if(body.scrollTop>=1500&&body.scrollTop<=2400){
 			$("#intro .left1").addClass("fadeInRight");
 			$("#intro .right1").addClass("fadeInLeft");
 		}

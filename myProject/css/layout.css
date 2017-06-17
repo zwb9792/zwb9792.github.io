@@ -421,7 +421,7 @@ em{
     text-align: center;
     color: rgb(242, 47, 47);
     position: fixed;
-    bottom: 160px;
+    bottom: 120px;
     right: 2px;
     display: inline;
     z-index: 999;
@@ -435,6 +435,9 @@ em{
 	}
 	.newNoen:nth-child(2) {
 	    display: none;
+	}
+	.outGo .btn{
+		    margin: 0px 0 10px;
 	}
 }
 @media screen and (max-width: 600px) {
