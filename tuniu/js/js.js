@@ -1,11 +1,9 @@
 window.onload = function(){//可视窗口大小发生改变
 				var h = window.innerHeight;
 				var w = window.innerWidth; 
-				
 				var num = window.devicePixelRatio;
 				var meta = document.createElement('meta');
 				var head = document.getElementsByTagName('head')[0];
-				
 				
 				num = window.devicePixelRatio>1?1/window.devicePixelRatio:1;
 				meta.name = "viewport";
