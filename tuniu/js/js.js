@@ -57,10 +57,10 @@ window.onload = function(){//可视窗口大小发生改变
 				list.style.transition = '0.5s';
 				list.style.transform = list.style.webkitTransform ="translateX("+now+"px)"; 
 				if(num>=lis.length){
-					num = lis.length-1;
+					num =0;
 				}
-				if(num<=0){
-					num=0;
+				if(num<0){
+					num=lis.length-1;
 				}
 				tab();
 				auto()
