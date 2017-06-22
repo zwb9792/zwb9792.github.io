@@ -1,6 +1,4 @@
-window.onload = function(){//可视窗口大小发生改变
-				var h = window.innerHeight;
-				var w = window.innerWidth; 
+window.onload = function(){
 				var num = window.devicePixelRatio;
 				var meta = document.createElement('meta');
 				var head = document.getElementsByTagName('head')[0];
@@ -10,9 +8,12 @@ window.onload = function(){//可视窗口大小发生改变
 				meta.content = "width=device-width,user-scalable=no,initial-scale="+num+",minimum-scale="+num+",maximum-scale="+num;
 				head.appendChild(meta);
 				
-				var i = w/18;
+				var i = view().w/18;
 				document.getElementsByTagName('html')[0].style.fontSize = i+'px';
-			}
+				
+				var body = document.getElementsByTagName("body")[0];
+				body.style.width = view().w+ 'px';
+				body.style.height = view().h + 'px';
 			
 			var pic = document.getElementsByClassName("shuffl")[0];
 			var list = pic.getElementsByTagName("ul")[0];
@@ -73,4 +74,4 @@ window.onload = function(){//可视窗口大小发生改变
 				addClass(As[num],'active');
 			}
 			
-			
+		}	

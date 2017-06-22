@@ -14,8 +14,8 @@ function bind(obj, ev, fn) {
 
 function view() {
     return {
-        w: document.documentElement.clientWidth,
-        h: document.documentElement.clientHeight
+        w: document.documentElement.clientWidth||document.body.clientWidth,
+        h: document.documentElement.clientHeight||document.body.clientHeight
     };
 }
 function addClass(obj, sClass) { 
