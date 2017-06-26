@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.ipt{
+    .nav-list{
+        position: absolute;
+        top: 31px;
+        left: -1px;
+        width: 470px;
+        height: auto;
+        border:  1px solid #eeeeee;
+        box-sizing: border-box;
+        z-index: 10;
+        display: block;
+        .hunt{display: none;
+            li{
+                a{display: block;width: 460px;height: 39px;padding: 10px 0 7px 7px;border-bottom: 1px solid #eeeeee;background-color: #fff;border-radius: 5px;
+                    .list-img{width: 40px;height: 40px;float: left;
+                    img{display: inline-block; width: 40px;height: 40px;}
+                    }
+                .music-detail{width: auto;height: auto; float: left;padding-left: 15px;
+                    p{width: 300px; word-break:keep-all;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;
+                        .music-name{color: #336699;}
+                        .attribution{color: #999999;}
+                    }
+                }
+            }
+            a:hover{background-color: #f9f9f9;}
+            }
+        }
+    }
+}

@@ -1,0 +1,181 @@
+@charset 'utf-8';
+#nav{
+   width: 100%;
+   min-width: 950px;
+   height: 28px;
+    background-color: #545652;
+
+.nav_1{
+    float: left;
+li{
+    float: left;
+a{
+    color: #d5d5d5;
+    display: inline-block;
+    padding: 0 12px;
+    height: 28px;
+    line-height: 28px;
+}//a结束
+a:hover{
+    color: #fff;
+}
+}//li结束
+}//nav_1结束
+.nav_2{
+    float: right;
+li{
+    float: left;
+a{
+    color: #d5d5d5;
+    display: inline-block;
+    padding: 0 12px;
+    height: 28px;
+    line-height: 28px;
+}//a结束 
+a:hover{
+    color: #fff;
+}
+}//li结束
+}//nav_2结束
+}//nav结束
+
+.imgge{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    position: relative;
+a{
+    display: block;
+    position: absolute;
+}
+p{
+    width: 32px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}    
+}
+
+#head{
+    width: 100%;
+    min-width: 950px;
+    height: 114px;
+    background-color: #f0f3ef;
+.head_t{
+    width: 950px;
+    height: 74px;
+    margin: 0 auto;
+    position: relative;
+.logo{
+    width: 115px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url(../img/music.png);
+    background-position: -200px -48px;
+a{
+    display: block;
+    width: 115px;
+    height: 32px;  
+}//a结束
+}//logo结束
+.ipt{
+    width: 503px;
+    height: 32px;
+    position: absolute;
+    margin: 21px 0 0 158px;
+#txt{
+    width: 466px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    padding: 0 10px 0;
+    float: left;
+    outline: 0 none;
+}//txt结束
+.mag{
+    width: 37px;
+    height: 32px;
+    border-radius: 0 2px 2px 0;
+    background-image: url(../img/music.png);
+    background-position: -827px -48px;
+    float: right;
+a{
+
+    display: block;
+    width: 37px;
+    height: 32px;
+ }//a结束  
+}//mag结束
+}//ipt结束
+}
+.border{
+    width: 100%;
+    min-width: 950px;
+    height: 1px;
+    background-color: #e3e9e2;
+}//border结束
+.head_b{
+    width: 950px;
+    height: 21px;
+    margin: 0 auto;
+.head_nav li{
+    height: 21px;
+    line-height: 21px;
+    float: left;
+    margin: 9px auto;
+a{
+    font-size: 12px;
+    display: block;
+    margin-right: 35px;
+}//a结束
+a:hover{
+    color: #fff;
+    background-color: #999;
+}
+}//head_nav li结束
+}//head_b结束
+}//head结束
+
+
+#end{
+    height: 31px;
+    position: relative;
+.end_all{
+    width: 950px;
+    height: 31px;
+    border-top: 1px dashed #dddddd;
+    line-height: 31px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+span{
+    color: #999999;
+    float: left;
+}
+ul{
+    float: right;
+li{
+    float: left;
+a{
+    color: #3377aa;
+}
+a:hover{
+    color: #fff;
+    background-color: #3377aa;
+}
+}
+}
+}//end_all结束
+}//end结束

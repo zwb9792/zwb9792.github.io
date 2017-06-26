@@ -1,0 +1,147 @@
+#nav {
+  width: 100%;
+  min-width: 950px;
+  height: 28px;
+  background-color: #545652; }
+  #nav .nav_1 {
+    float: left; }
+    #nav .nav_1 li {
+      float: left; }
+      #nav .nav_1 li a {
+        color: #d5d5d5;
+        display: inline-block;
+        padding: 0 12px;
+        height: 28px;
+        line-height: 28px; }
+      #nav .nav_1 li a:hover {
+        color: #fff; }
+  #nav .nav_2 {
+    float: right; }
+    #nav .nav_2 li {
+      float: left; }
+      #nav .nav_2 li a {
+        color: #d5d5d5;
+        display: inline-block;
+        padding: 0 12px;
+        height: 28px;
+        line-height: 28px; }
+      #nav .nav_2 li a:hover {
+        color: #fff; }
+
+.imgge {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 20px;
+  position: relative; }
+  .imgge a {
+    display: block;
+    position: absolute; }
+  .imgge p {
+    width: 32px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; }
+
+#head {
+  width: 100%;
+  min-width: 950px;
+  height: 114px;
+  background-color: #f0f3ef; }
+  #head .head_t {
+    width: 950px;
+    height: 74px;
+    margin: 0 auto;
+    position: relative; }
+    #head .head_t .logo {
+      width: 115px;
+      height: 32px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      background-image: url(../img/music.png);
+      background-position: -200px -48px; }
+      #head .head_t .logo a {
+        display: block;
+        width: 115px;
+        height: 32px; }
+    #head .head_t .ipt {
+      width: 503px;
+      height: 32px;
+      position: absolute;
+      margin: 21px 0 0 158px; }
+      #head .head_t .ipt #txt {
+        width: 466px;
+        height: 32px;
+        border: none;
+        border-bottom: 1px solid #d1d1d1;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        padding: 0 10px 0;
+        float: left;
+        outline: 0 none; }
+      #head .head_t .ipt .mag {
+        width: 37px;
+        height: 32px;
+        border-radius: 0 2px 2px 0;
+        background-image: url(../img/music.png);
+        background-position: -827px -48px;
+        float: right; }
+        #head .head_t .ipt .mag a {
+          display: block;
+          width: 37px;
+          height: 32px; }
+  #head .border {
+    width: 100%;
+    min-width: 950px;
+    height: 1px;
+    background-color: #e3e9e2; }
+  #head .head_b {
+    width: 950px;
+    height: 21px;
+    margin: 0 auto; }
+    #head .head_b .head_nav li {
+      height: 21px;
+      line-height: 21px;
+      float: left;
+      margin: 9px auto; }
+      #head .head_b .head_nav li a {
+        font-size: 12px;
+        display: block;
+        margin-right: 35px; }
+      #head .head_b .head_nav li a:hover {
+        color: #fff;
+        background-color: #999; }
+
+#end {
+  height: 31px;
+  position: relative; }
+  #end .end_all {
+    width: 950px;
+    height: 31px;
+    border-top: 1px dashed #dddddd;
+    line-height: 31px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto; }
+    #end .end_all span {
+      color: #999999;
+      float: left; }
+    #end .end_all ul {
+      float: right; }
+      #end .end_all ul li {
+        float: left; }
+        #end .end_all ul li a {
+          color: #3377aa; }
+        #end .end_all ul li a:hover {
+          color: #fff;
+          background-color: #3377aa; }
+
+/*# sourceMappingURL=nav.css.map */

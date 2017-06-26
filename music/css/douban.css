@@ -1,0 +1,214 @@
+#head {
+  width: 100%;
+  height: 89px;
+  background-color: #fff; }
+  #head #anony_nav {
+    width: 950px;
+    height: 89px;
+    margin: 0 auto;
+    position: relative; }
+    #head #anony_nav #logo {
+      width: 154px;
+      height: 33px;
+      background-image: url(../img/douban.png);
+      background-position: -200px -30px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    #head #anony_nav #search {
+      width: 271px;
+      height: 32px;
+      position: absolute;
+      left: 183px;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+      #head #anony_nav #search input[type="text"] {
+        width: 235px;
+        height: 26px;
+        outline: 0 none;
+        padding-left: 5px;
+        padding-right: 28px; }
+      #head #anony_nav #search #mag {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto 0;
+        background-image: url(../img/douban.png);
+        background-position: -624px -32px; }
+        #head #anony_nav #search #mag a {
+          display: block;
+          width: 30px;
+          height: 30px; }
+    #head #anony_nav #nav {
+      width: 480px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto 0; }
+      #head #anony_nav #nav li {
+        width: 42px;
+        height: 30px;
+        float: left;
+        margin-left: 18px; }
+        #head #anony_nav #nav li a {
+          width: 42px;
+          height: 30px;
+          display: block; }
+      #head #anony_nav #nav li:nth-of-type(1) a {
+        background-image: url(../img/douban.png);
+        background-position: -686px -32px; }
+      #head #anony_nav #nav li:nth-of-type(2) a {
+        background-image: url(../img/douban.png);
+        background-position: -746px -32px; }
+      #head #anony_nav #nav li:nth-of-type(3) a {
+        background-image: url(../img/douban.png);
+        background-position: -806px -32px; }
+      #head #anony_nav #nav li:nth-of-type(4) a {
+        background-image: url(../img/douban.png);
+        background-position: -866px -32px; }
+      #head #anony_nav #nav li:nth-of-type(5) a {
+        background-image: url(../img/douban.png);
+        background-position: -926px -32px; }
+      #head #anony_nav #nav li:nth-of-type(6) a {
+        background-image: url(../img/douban.png);
+        background-position: -984px -32px; }
+      #head #anony_nav #nav li:nth-of-type(7) a {
+        background-image: url(../img/douban.png);
+        background-position: -1046px -32px; }
+      #head #anony_nav #nav li:nth-of-type(8) a {
+        background-image: url(../img/douban.png);
+        background-position: -1108px -32px; }
+
+#warp {
+  width: 100%;
+  height: auto; }
+  #warp .db1 {
+    width: 100%;
+    height: 178px;
+    background: url(../img/doubanapp1_bg.png) no-repeat;
+    background: cover;
+    background-position: top right;
+    background-color: #f1faf1; }
+    #warp .db1 .db1_1 {
+      width: 950px;
+      height: 178px;
+      background: url(../img/doubanapp1_1.png) no-repeat;
+      margin: 0 auto; }
+    #warp .db1 .db_l {
+      width: 150px;
+      height: 120px;
+      position: absolute;
+      margin: 36px 0 44px 430px; }
+    #warp .db1 .db1_p1 {
+      margin: 7px 0;
+      font-size: 25px;
+      color: #111;
+      font-weight: bold;
+      line-height: 24px;
+      text-rendering: optimizelegibility; }
+      #warp .db1 .db1_p1 span {
+        font-weight: 300;
+        padding-left: 10px; }
+    #warp .db1 .db1_p2 {
+      font-size: 12px;
+      letter-spacing: 9px;
+      margin-bottom: 10px; }
+  #warp .app {
+    display: block;
+    width: 115px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #00b51d;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    color: #fff; }
+  #warp .logo img {
+    width: 30px;
+    height: 30px;
+    float: right; }
+  #warp .db_r {
+    width: 273px;
+    height: 131px;
+    margin-top: 24px;
+    float: right; }
+    #warp .db_r .t {
+      width: 273px;
+      height: 32px;
+      margin-bottom: 4px; }
+      #warp .db_r .t input {
+        width: 260px;
+        height: 30px;
+        border: 1px solid #dbe5db;
+        padding: 0 5px;
+        outline: 0 none; }
+    #warp .db_r .p {
+      width: 273px;
+      height: 32px;
+      margin-bottom: 4px; }
+      #warp .db_r .p input {
+        width: 260px;
+        height: 30px;
+        border: 1px solid #dbe5db;
+        padding: 0 5px;
+        outline: 0 none; }
+    #warp .db_r .b {
+      width: 273px;
+      height: 32px;
+      margin-bottom: 4px; }
+      #warp .db_r .b input {
+        width: 133px;
+        height: 30px;
+        background-color: #30a080;
+        border: none;
+        border-radius: 3px;
+        float: left;
+        color: #feffff; }
+      #warp .db_r .b a {
+        display: block;
+        width: 133px;
+        height: 29px;
+        border: 1px solid #30a080;
+        box-sizing: border-box;
+        float: right;
+        text-align: center;
+        line-height: 27px;
+        color: #30a080; }
+    #warp .db_r .r {
+      width: 273px;
+      height: 32px;
+      position: relative; }
+      #warp .db_r .r input {
+        vertical-align: middle; }
+      #warp .db_r .r .wechat {
+        display: inline-block;
+        width: 14px;
+        height: 12px;
+        background: url(../img/wechat.png) no-repeat;
+        background: cover;
+        vertical-align: middle;
+        position: absolute;
+        right: 20px; }
+      #warp .db_r .r .weibo {
+        display: inline-block;
+        width: 14px;
+        height: 12px;
+        background: url(../img/weibo.png) no-repeat;
+        background: cover;
+        vertical-align: middle;
+        position: absolute;
+        right: 0px; }
+
+.doubanbg {
+  width: 950px;
+  height: auto;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=douban.css.map */
