@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta  name="viewport" content="width=640,user-scalable=no"/>
+		<title></title>
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+
+		<script type="text/javascript" src="js/jquery-2.2.4.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var w = window.innerWidth;
+			var h = window.innerHeight;
+			document.body.style.width = w + 'px';
+			document.body.style.height = h + 'px';
+		</script>
+		
+		<!--搜索-->
+		<header class="header">
+			<div class="search">
+				<div class="logo"></div>
+				<input type="text" name="txt" id="txt" value="" placeholder="笔记本固态硬盘"/>
+			</div>
+			<div class="login"><span>登录</span></div>
+		</header>
+		
+		
+		<!--轮播-->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="3" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="4" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="5" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="6" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="7" class="nav"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="8" class="nav"></li>
+		  </ol>
+		
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner slide_wrap" role="listbox">
+		    <div class="item active">
+		      <img src="img/jd_lu1.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu2.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu3.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu4.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu5.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu6.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu7.jpg">
+		    </div>
+		    <div class="item">
+		      <img src="img/jd_lu8.jpg">
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		<!--服务种类-->
+		<div class="service">
+			<ul class="serv_wrap cleafix">
+				<li class="sw_1">
+					<img src="img/serv_1.png"/>
+					<p>京东超市</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_2.png"/>
+					<p>全球购</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_3.png"/>
+					<p>服装城</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_4.png"/>
+					<p>京东生鲜</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_5.png"/>
+					<p>京东到家</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_6.png"/>
+					<p>充值缴费</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_7.png"/>
+					<p>领京豆</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_8.png"/>
+					<p>领券</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_9.png"/>
+					<p>惠赚钱</p>
+				</li>
+				<li class="sw_1">
+					<img src="img/serv_10.png"/>
+					<p>物流查询</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--插图1-->
+		<div class="illustrations"><img src="img/jpgq.jpg"/></div>
+		
+		<!--快报-->
+		<div class="letters">
+			<div class="letters_auto">
+				<a class="letters_1" href="javascript:;"><img src="img/letters.png"/>：</a>
+				<ul class="letters_2">
+					<li><a href="javascript:;"><span>新 </span>雅培海外旗舰店开业盛典</a></li>
+				</ul>
+				<a class="letters_3" href="javascript:;">更多</a>
+			</div>
+		</div>
+		
+		<!--秒杀-->
+		<div class="seckill">
+			<img class="seckill_1" src="img/seckill.png"/>
+			<strong class="seckill_2"><span>10</span>点场</strong>
+			<div class="time">
+				<div class="time1 sp1">00</div>
+				<span>:</span>
+				<div class="time1 sp2">39</div>
+				<span>:</span>
+				<div class="time1 sp3">13</div>
+			</div>
+			<span class="seckill_3">秒点好货过周 </span>
+		</div>
+		
+		
+		<!--抢购-->
+	<div class="snap">
+		<ul class="snap_wrap">
+			<li>
+				<img src="img/snap_1.jpg"/>
+				<span class="snap_s1">¥249</span>
+				<span class="snap_s2">¥499<hr></span>
+			</li>
+			<li>
+				<img src="img/snap_2.jpg"/>
+				<span class="snap_s1">¥16.8</span>
+				<span class="snap_s2">¥60<hr></span>
+			</li>
+			<li><img src="img/snap_3.jpg"/>
+				<span class="snap_s1">¥186</span>
+				<span class="snap_s2">¥199<hr></span>
+			</li>
+			<li><img src="img/snap_4.jpg"/>
+				<span class="snap_s1">¥239</span>
+				<span class="snap_s2">¥799<hr></span>
+			</li>
+			<li><img src="img/snap_5.jpg"/>
+				<span class="snap_s1">¥189</span>
+				<span class="snap_s2">¥236<hr></span>
+			</li>
+			<li><img src="img/snap_6.jpg"/>
+				<span class="snap_s1">¥59.9</span>
+				<span class="snap_s2">¥118<hr /></span>
+			</li>
+			<li><img src="img/snap_7.jpg"/>
+				<span class="snap_s1">¥69</span>
+				<span class="snap_s2">¥199<hr></span>
+			</li>
+			<li><img src="img/snap_8.jpg"/>
+				<span class="snap_s1">¥1198</span>
+				<span class="snap_s2">¥1999<hr></span>
+			</li>
+			<li><img src="img/snap_9.jpg"/>
+				<span class="snap_s1">¥168</span>
+				<span class="snap_s2">¥499<hr></span>
+			</li>
+			<li><img src="img/snap_10.jpg"/>
+				<span class="snap_s1">¥2080</span>
+				<span class="snap_s2">¥2999<hr></span>
+			</li>
+			<li><img src="img/snap_11.jpg"/>
+				<span class="snap_s1">¥29</span>
+				<span class="snap_s2">¥199<hr></span>
+			</li>
+			<li><img src="img/snap_12.jpg"/>
+				<span class="snap_s1">¥399</span>
+				<span class="snap_s2">¥599<hr></span>
+			</li>
+			<li><img src="img/snap_13.jpg"/>
+				<span class="snap_s1">¥59</span>
+				<span class="snap_s2">¥119<hr></span>
+			</li>
+			<li><img src="img/snap_14.jpg"/>
+				<span class="snap_s1">¥39.9</span>
+				<span class="snap_s2">¥55.3<hr></span>
+			</li>
+			<li><img src="img/snap_15.jpg"/>
+				<span class="snap_s1">¥2599</span>
+				<span class="snap_s2">¥7598<hr></span>
+			</li>
+			<li><img src="img/snap_16.jpg"/>
+				<span class="snap_s1">¥75</span>
+				<span class="snap_s2">¥298<hr></span>
+			</li>
+			<li><img src="img/snap_17.jpg"/>
+				<span class="snap_s1">¥5349</span>
+				<span class="snap_s2">¥8999<hr></span>
+			</li>
+			<li><img src="img/snap_18.jpg"/>
+				<span class="snap_s1">¥399</span>
+				<span class="snap_s2">¥698<hr></span>
+			</li>
+			<li><img src="img/snap_19.jpg"/>
+				<span class="snap_s1">¥1298</span>
+				<span class="snap_s2">¥1999<hr></span>
+			</li>
+			<li><img src="img/snap_20.jpg"/>
+				<span class="snap_s1">¥49.9</span>
+				<span class="snap_s2">¥79.8<hr></span>
+			</li>
+			<li class="active">
+				<div>
+					<i></i>
+					<span>查看全部</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+		
+	<!--好货-->
+	<ul class="stuff">
+		<li class="stuff_1">
+			<strong>发现好货</strong>
+			<span>发现品质生活</span>
+			<img src="img/stuff_1.jpg" />
+		</li>
+		<li class="stuff_2">
+			<strong>排行榜</strong>
+			<span>热卖爆款集结</span>
+			<img src="img/stuff_2.jpg" />
+		</li>
+		<li class="stuff_2">
+			<strong>闪购</strong>
+			<span>你要的都在这</span>
+			<img src="img/stuff_3.jpg" /></li>
+	</ul>
+		
+	<!--爱生活-->
+	<div class="like"><img src="img/like.jpg"/></div>
+		
+	<div class="like_cont">
+		<div class="common-6  cont_1">
+			<div class="cont_l">
+				<strong>玩3C</strong>
+				<p>iPhone超低价</p>
+				<span class="like_s1">更多优惠</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/like_cont1.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_2">
+			<div class="cont_l">
+				<strong>京东家电</strong>
+				<p>每满千减百</p>
+				<span class="like_s1">返场也给力</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/like_cont2.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_3">
+			<div class="cont_l">
+				<strong>京东超市</strong>
+				<p>返场爆款更疯狂</p>
+				<span class="like_s1">领券满99减50</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/like_cont3.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_4">
+		<div class="cont_l">
+				<strong>爱家</strong>
+				<p>满300减50</p>
+			</div>
+			<div class="cont_r">
+			<img src="img/like_cont4.jpg"/>
+			</div></div>
+		<div class="common-3  cont_5">
+			<div class="cont_t">
+				<strong>爱宝宝</strong>
+				<p>满299减100</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/like_cont5.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_6">
+			<div class="cont_t">
+				<strong>爱美丽</strong>
+				<p>每满199-100</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/like_cont6.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_7">
+			<div class="cont_t">
+				<strong>爱吃</strong>
+				<p>零食低至5折</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/like_cont7.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_8">
+			<div class="cont_t">
+				<strong>爱穿搭</strong>
+				<p>杰克琼斯5折</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/like_cont8.jpg"/>
+			</div>
+		</div>
+	</div>
+		
+	<!--疯狂周五-->
+	<div class="gt_1 crazy">
+		<img src="img/crazy.jpg"/>
+	</div>
+		
+	<!--享生活-->
+	<div class="like"><img src="img/like-2.jpg"/></div>
+	
+	<div class="like_cont">
+		<div class="common-6  cont_1">
+			<div class="cont_l">
+				<strong>全球尖货</strong>
+				<p>美妆盛典</p>
+				<span class="like_s2">买3免1</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/like-2_1.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_2">
+			<div class="cont_l">
+				<strong>京东精选</strong>
+				<p>精选优质生活</p>
+			</div>
+			<div class="cont_r">
+			<img src="img/like-2_2.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_3">
+			<div class="cont_l">
+				<strong>京东体育</strong>
+				<p>骑行装备</p>
+				<span class="like_s2">骑行大牌聚会</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/like-2_3.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_4">
+		<div class="cont_l">
+				<strong>奢品大牌</strong>
+				<p>奢品满减</p>
+			</div>
+			<div class="cont_r">
+			<img src="img/like-2_4.jpg"/>
+			</div></div>
+		<div class="common-3  cont_5">
+			<div class="cont_t">
+				<strong>环球时尚</strong>
+				<p>低至3折</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/like-2_5.jpg"/>
+				<span class="like_s2">超好看</span>
+			</div>
+		</div>
+		<div class="common-3  cont_6">
+			<div class="cont_t">
+				<strong>环球首饰</strong>
+				<p>12期免费</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/like-2_6.jpg"/>
+				<span class="like_s2">黄金</span>
+			</div>
+		</div>
+		<div class="common-3  cont_7">
+			<div class="cont_t">
+				<strong>设计师</strong>
+				<p>潮流设计精选</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/like-2_7.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_8">
+			<div class="cont_t">
+				<strong>买手甄选</strong>
+				<p>199-100</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/like-2_8.jpg"/>
+				<span class="like_s2">自营</span>
+			</div>
+		</div>
+	</div>
+	
+	<!--空调满减-->
+	<div class="gt_1 condit">
+		<img src="img/condit.jpg"/>
+	</div>
+		
+	<!--购特色-->
+	<div class="like"><img src="img/features.jpg"/></div>
+	
+	<div class="like_cont">
+		<div class="common-6  cond_1 condd">
+			<div class="cont_l posi">
+				<strong>智能生活</strong>
+				<p>充电手机壳</p>
+				<span class="like_s3 s3">低至一元</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/cond_1.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cond_2 condd">
+			<div class="cont_t">
+				<strong>京东众筹</strong>
+				<p>音乐摩托</p>
+			</div>
+			<div class="cont_b im_1 posi">
+				<img src="img/cond_2.jpg"/>
+				<span class="like_s3">抢神券</span>
+			</div>
+		</div>
+		<div class="common-3  cond_3 condd">
+			<div class="cont_t">
+				<strong>京东旅行</strong>
+				<p>9.9秒杀</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/cond_3.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cond_4 condd">
+			<div class="cont_l posi">
+				<strong>白条商城</strong>
+				<p>相机6期免息</p>
+				<span class="like_s3 s3">0首付相机</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/cond_4.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cond_5 condd">
+			<div class="cont_t">
+				<strong>爱车生活</strong>
+				<p>大牌直降</p>
+			</div>
+			<div class="cont_b im_1 posi">
+				<img src="img/cond_5.jpg"/>
+				<span class="like_s3">限时购</span>
+			</div>
+		</div>
+		<div class="common-3  cond_6 condd">
+			<div class="cont_t">
+				<strong>生活娱乐</strong>
+				<p>全场5折起</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/cond_6.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cond_7 condd">
+			<div class="cont_t">
+				<strong>二手清仓</strong>
+				<p>iPhone6秒杀</p>
+			</div>
+			<div class="cont_b im_1 posi">
+				<img src="img/cond_7.jpg"/>
+				<span class="like_s3">疯抢中</span>
+			</div>
+		</div>
+		<div class="common-3  cond_8 condd">
+			<div class="cont_t">
+				<strong>大药房</strong>
+				<p>人安宁心安宁</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/cond_8.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cond_9 condd">
+			<div class="cont_t">
+				<strong>陪伴宝宝</strong>
+				<p>满399减200</p>
+			</div>
+			<div class="cont_b posi">
+				<img src="img/cond_9.jpg"/>
+				<span class="like_s3">1元抢</span>
+			</div>
+		</div>
+		<div class="common-3  cond_10 condd">
+			<div class="cont_t">
+				<strong>京东拍卖</strong>
+				<p>年终捡漏拍卖</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/cond_10.jpg"/>
+			</div>
+		</div>
+	</div>
+	
+	<!--年中大促-->
+	<div class="gt_1 promot">
+		<img src="img/promot.jpg"/>
+	</div>
+		
+	<!--逛商城-->
+	<div class="like"><img src="img/promot-1.jpg"/></div>
+	
+	<div class="like_cont">
+		<div class="common-6  cont_1">
+			<div class="cont_l">
+				<strong>时尚馆</strong>
+				<p>新品首降5折</p>
+			</div>
+			<div class="cont_r">
+			<img src="img/pro_1.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_2">
+			<div class="cont_l">
+				<strong>美食城</strong>
+				<p>99减50</p>
+			</div>
+			<div class="cont_r">
+			<img src="img/pro_2.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_3">
+			<div class="cont_l">
+				<strong>大家电馆</strong>
+				<p>每满千减百</p>
+			</div>
+			<div class="cont_r">
+			<img src="img/pro_3.jpg"/>
+			</div>
+		</div>
+		<div class="common-6  cont_4">
+		<div class="cont_l">
+				<strong>电脑办公</strong>
+				<p>i71999抢</p>
+				<span class="like_s4">爆款疯抢</span>
+			</div>
+			<div class="cont_r">
+			<img src="img/pro_4.jpg"/>
+			</div></div>
+		<div class="common-3  cont_5">
+			<div class="cont_t">
+				<strong>母婴馆</strong>
+				<p>满300减100</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/pro_5.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_6">
+			<div class="cont_t">
+				<strong>手机数码</strong>
+				<p>小米Max2抢</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/pro_6.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_7">
+			<div class="cont_t">
+				<strong>鞋靴箱包</strong>
+				<p>低至99元</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/pro_7.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_8">
+			<div class="cont_t">
+				<strong>小家电馆</strong>
+				<p>每满300减30</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/pro_8.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_5">
+			<div class="cont_t">
+				<strong>东家菜</strong>
+				<p>快手家常菜</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/pro_9.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_6">
+			<div class="cont_t">
+				<strong>家装城</strong>
+				<p>满300减50</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/pro_10.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_7">
+			<div class="cont_t">
+				<strong>图书音像</strong>
+				<p>好书盘点</p>
+			</div>
+			<div class="cont_b">
+				<img src="img/pro_11.jpg"/>
+			</div>
+		</div>
+		<div class="common-3  cont_8">
+			<div class="cont_t">
+				<strong>奢品馆</strong>
+				<p>满499减200</p>
+			</div>
+			<div class="cont_b im_1">
+				<img src="img/pro_12.jpg"/>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!--发现好店-->
+	<div class="found"><img src="img/found.jpg"/></div>
+	
+	<!--好店-->
+	<div class="like_las">
+		<img src="img/found-1.jpg"/>
+		<span class="like-more">更多精彩</span>
+	</div>
+	
+	<div class="goodshop  gs_wrap">
+		<div class="gs">
+				<strong>女装</strong>
+				<p>女神教室</p>
+			<div class="gs_1">
+				<img class="img_o" src="img/shop_1.jpg"/>
+				<img class="img_o" src="img/shop_2.jpg"/>
+			</div>
+				<p class="bott">VERO MODA旗舰店</p>
+		</div>
+		<div class="gs">
+				<strong>手机通讯</strong>
+				<p>是不是在挑手机？</p>
+			<div class="gs_1">
+				<img class="img_o" src="img/shop_3.jpg"/>
+				<img class="img_o" src="img/shop_4.jpg"/>
+			</div>
+				<p class="bott">京东Apple产品专营店</p>
+		</div>
+	</div>
+	
+	<!--清单-->
+	<div class="like_las">
+		<img src="img/list.jpg"/>
+		<span class="like-more">更多精彩</span>
+	</div>
+	
+	<div class="goodshop  gs_wrap">
+		<div class="gs">
+				<strong>孩子高考考出好成绩，送大运存手机当奖赏</strong>
+			<div class="gs_1">
+				<img class="img_o" src="img/list1.jpg"/>
+				<img class="img_o" src="img/list2.jpg"/>
+			</div>
+		</div>
+		<div class="gs">
+				<strong>变频静音壁挂空调，守护家人每夜好眠</strong>
+			<div class="gs_1">
+				<img class="img_o" src="img/list3.jpg"/>
+				<img  class="img_o" src="img/list4.jpg"/>
+			</div>
+		</div>
+	</div>
+	
+	<!--live-->
+	<div class="like_las">
+		<img id="live" src="img/live.jpg"/>
+		<span class="like-more">更多精彩</span>
+	</div>
+	
+	<div class="padd">
+		<div class="padd_1">
+				<strong>穿搭</strong>
+				<a class="look">直播<i class="glyphicon glyphicon-play"></i></a>
+				<p>夏季清凉穿搭美翻整个热天</p>
+			<div class="padd_2 padd_border">
+				<img class="img_t" src="img/live1.jpg"/>
+			</div>
+			<p class="padd_3"><span class="glyphicon glyphicon-map-marker"></span><span>广州</span></p>
+		</div>
+		<div class="padd_1">
+				<strong>彩妆</strong>
+				<a class="look">直播<i class="glyphicon glyphicon-play"></i></a>
+				<p>勾魂电眼一步到位</p>
+			<div class="padd_2">
+				<img class="img_t" src="img/live2.jpg"/>
+			</div>
+			<p class="padd_3"><span class="glyphicon glyphicon-map-marker"></span><span>成都</span></p>
+		</div>
+	</div>
+	
+	
+	<!--推荐-->
+	<div class="recom">
+		<div class="recom_1">
+			<a href="javascript"><span class="glyphicon glyphicon-upload"></span>为你推荐</a>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-1.jpg"/>
+				<span class="recom_sp1">魔幻厨房 烘焙工具套装 烤箱用品DIY蛋糕模具 饼干披萨蛋挞 西点烘培模具套餐 新手 套装全套</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">188</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-2.jpg"/>
+				<span class="recom_sp1">【京东超市】百家好世旋转拖把桶拖布双驱动好神拖免手洗地拖墩布【共6拖把头】</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">59</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-3.jpg"/>
+				<span class="recom_sp1">【京东超市】所望 SOMANG 牛奶身体护理4件套（沐浴露750ml+身体乳500ml+沐浴身体50ml*2）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">79</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-4.jpg"/>
+				<span class="recom_sp1">【京东超市】草木良品 纯棉压边化妆棉222片两包装（卸妆棉 天然棉 不掉絮）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">25</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-5.jpg"/>
+				<span class="recom_sp1">【京东超市】双枪（Suncha）竹雕刻 家用竹筷子套装12双装KZ1923</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">12</span>.90 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-6.jpg"/>
+				<span class="recom_sp1"><img id="jx-1" src="img/jx-1.png"/>【京东超市】尤妮佳（Moony）纸尿裤 L68片（9-14kg）大号婴儿尿不湿（官方进口）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">109</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-7.jpg"/>
+				<span class="recom_sp1">香山 EB829HJ 电子秤体重称 精准（美妆粉）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">59</span>.90 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-8.jpg"/>
+				<span class="recom_sp1">飞利浦（PHILIPS）10400毫安 移动电源/充电宝 双USB输出 DLP2101 白色+赠收纳包赠完为止</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">149</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-9.jpg"/>
+				<span class="recom_sp1">超级飞侠儿童背包 乐迪幼儿背包 休闲幼儿园书包 男孩 女孩 乐迪款BS0039</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">99</span>.90 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-10.jpg"/>
+				<span class="recom_sp1">小米（MI）小米电视4A 标准版 55英寸 HDR 2GB+8GB 四核64位高性能处理器 4K超高清智能语音网络液晶平板电视（L55M5-AZ）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">3399</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap a-s">
+				<p class="a-s1"><img id="a-s1img" src="img/a_logo.jpg" /></p>
+				<p class="a-s2">京东Apple产品专营店</p>
+				<p class="a-s3">1381874人关注</p>
+				<p class="a-s4">查看店铺</p>
+				<p class="a-s5"><img id="a-s5img" src="img/a-2.jpg"/></p>
+				<p class="a-s6"><img id="a-s6img1" src="img/a_3.jpg"/><img id="a-s6img2" src="img/a_4.jpg"/></p>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-12.jpg"/>
+				<span class="recom_sp1">bonchen邦臣新款真皮男士钥匙包钱包 一体小钥匙包女士锁匙包9825-01 沉稳黑色</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">136</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-13.jpg"/>
+				<span class="recom_sp1">平凡的世界（普及本）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">20</span>.08 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-14.jpg"/>
+				<span class="recom_sp1">蕊晟2017夏装新款孕妇装孕妇裤波浪无袖上衣+托腹短裤两件套装9013 图片色 L</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">99</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s" id="plus">
+			<div class="recom_l recom_wrap plus_s">
+				<img src="img/recom-15.jpg"/>
+				<span class="recom_sp1">【血亏冲量/买3送垃圾桶/限时甩卖】炫彩加厚垃圾袋点断式一次性塑料袋中大号45*50cm 升级加厚款 5卷装</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">11</span>.80 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap plus_s">
+				<img src="img/recom-16.jpg"/>
+				<span class="recom_sp1">摩登鸟钱包男士长款真皮拉链钱夹多卡位大容量头层牛皮手包休闲商务 黑色+手腕带</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">139</span>.00 <span class="recom_sp4">看相似</span>	</span>
+				<span id="plus-1">¥132.00</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-17.jpg"/>
+				<span class="recom_sp1">【京东超市】潘婷洗发水乳液修护750ml（男女通用 洗头膏 洗发露 深层修护 新老包装随机发送）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">65</span>.90 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-18.jpg"/>
+				<span class="recom_sp1">乔达奈夏季凉鞋男商务正装皮鞋镂空男士皮凉鞋牛皮透气洞洞鞋 镂空黑色 38</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">138</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-19.jpg"/>
+				<span class="recom_sp1">【京东超市】金龙鱼 东北大米 蟹稻共生 盘锦大米5KG(包装更新，新老包装随机发放）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">29</span>.90 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-20.jpg"/>
+				<span class="recom_sp1">英皇保罗钱包男长款真皮头层牛皮男士钱包拉链钱夹 商务手拿包 POLO129 黑色</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">168</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s">
+			<div class="recom_l recom_wrap">
+				<img src="img/recom-21.jpg"/>
+				<span class="recom_sp1">Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A)</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">6588</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+			<div class="recom_r recom_wrap">
+				<img src="img/recom-22.jpg"/>
+				<span class="recom_sp1">婉美妈咪新款孕妇装夏装新款连衣裙短袖打底衫韩版孕妇裙子衣宽松上衣打底衣16329 灰色 均码</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">99</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+		
+		<div class="recom_s" id="plus">
+			<div class="recom_l recom_wrap plus_s">
+				<img src="img/recom-23.jpg"/>
+				<span class="recom_sp1"><img id="jx-1" src="img/jx-1.png"/>蓓慈(BEICI)BZ501C全自动按摩足浴盆洗脚盆泡脚盆泡脚桶</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">329</span>.00 <span class="recom_sp4">看相似</span>	</span>
+				<span id="plus-1">¥309.00</span>
+			</div>
+			<div class="recom_r recom_wrap plus_s">
+				<img src="img/recom-24.jpg"/>
+				<span class="recom_sp1">先马（SAMA）时光豪华版 分体式水冷机箱 （双面钢化玻璃/配3把蓝光风扇/支持ATX主板、长显卡、电源下置）</span>
+				<span class="recom_sp2">¥<span class="recom_sp3">200</span>.00 <span class="recom_sp4">看相似</span>	</span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--继续加载-->
+	<div id="loading"><a href="javascript:;">点击继续加载</a></div>
+		
+	<div class="row handle">
+	  <div class="col-xs-3 handle-s">
+	    <a href="#" class="thumbnail">登录</a>
+	  </div>
+	   <div class="col-xs-3 handle-s">
+	    <a href="#" class="thumbnail">注册</a>
+	  </div>
+	   <div class="col-xs-3 handle-s">
+	    <a href="#" class="thumbnail">反馈</a>
+	  </div>
+	   <div class="col-xs-3 handle-s">
+	    <a href="#" class="thumbnail">回到顶部</a>
+	  </div>
+	</div>
+	
+	
+	<div class="oud">
+	  <div class="oud-s">
+	      <img src="img/oud_01.jpg" />
+	        <p>客户端</p>
+	    </div>
+	     <div class="oud-s">
+	      <img src="img/oud_02.jpg" />
+	        <p>客户端</p>
+	    </div>
+	     <div class="oud-s">
+	      <img src="img/oud_03.jpg" />
+	        <p>客户端</p>
+	    </div>
+	  </div>
+	  
+	
+	<!--版权号-->
+	<div class="copyr">Copyright © 2004-2017 京东JD.com 版权所有</div>
+	
+	<!--end-->
+	<div class="end">
+		<div class="end-1 end_s ">
+			<img src="img/end-1.png"/>
+		</div>
+		<div class="end-2 end_s">
+			<img src="img/end-2.png"/>
+		</div>
+		<div class="end-3 end_s">
+			<img src="img/end-3.png"/>
+		</div>
+		<div class="end-4 end_s">
+			<img src="img/end-4.png"/>
+		</div>
+		<div class="end-5 end_s">
+			<img src="img/end-5.png"/>
+		</div>
+	</div>
+	
+		
+		<script type="text/javascript">
+			window.onload = window.onresize = function(){
+				var w = document.documentElement.getBoundingClientRect().width;
+				var h = document.documentElement.getBoundingClientRect().height;
+				var num = window.devicePixelRatio;
+				var meta = document.createElement('meta');
+				var head = document.getElementsByTagName('head')[0];
+				var i = w/16;
+				document.getElementsByTagName('html')[0].style.fontSize = i+'px';
+				head.appendChild(meta);
+			}
+		</script>
+	</body>
+</html>
