@@ -6,17 +6,18 @@
 		<link rel="stylesheet" type="text/css" href="css/cattle.css"/>
 		<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
 	</head>
 	<body>
 		<!--头部-->
 		<div class="header">
 			<div class="header_logo"><img src="img/img1.png"/></div>
-			<div class="header_search"><span>广州<a></a></span><img src="img/img1-2.png"/><input type="text" name="" id="" value="" placeholder="泰国"/></div>
+			<div class="header_search"><span>广州<a></a></span><img src="img/img1-2.png"/></div>
 			<div class="header_menu"><img src="img/img2.png"/></div>
 		</div>
 		
 		<!--轮播-->
-		<div class="shuffl" id="banner">
+		<!--<div class="shuffl" id="banner">
 			<ul>
 				<li><img src="img/shuffl1.jpeg"/></li>
 				<li><img src="img/shuffl2.jpeg"/></li>
@@ -27,6 +28,46 @@
 				<span></span>
 				<span></span>
 			</div>
+		</div>-->
+		<div id="slider" class="mui-slider" >
+		  <div class="mui-slider-group mui-slider-loop">
+		    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		    <div class="mui-slider-item mui-slider-item-duplicate">
+		      <a href="#">
+		        <img src="img/shuffl3.jpeg">
+		      </a>
+		    </div>
+		    <!-- 第一张 -->
+		    <div class="mui-slider-item">
+		      <a href="#">
+		        <img src="img/shuffl1.jpeg">
+		      </a>
+		    </div>
+		    <!-- 第二张 -->
+		    <div class="mui-slider-item">
+		      <a href="#">
+		        <img src="img/shuffl2.jpeg">
+		      </a>
+		    </div>
+		    <!-- 第三张 -->
+		    <div class="mui-slider-item">
+		      <a href="#">
+		        <img src="img/shuffl3.jpeg">
+		      </a>
+		    </div>
+		    
+		    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		    <div class="mui-slider-item mui-slider-item-duplicate">
+		      <a href="#">
+		        <img src="img/shuffl1.jpeg">
+		      </a>
+		    </div>
+		  </div>
+		  <div class="mui-slider-indicator">
+		    <div class="mui-indicator mui-active circle"></div>
+		    <div class="mui-indicator circle"></div>
+		    <div class="mui-indicator circle"></div>
+		  </div>
 		</div>
 		
 		<!--方式-->
@@ -277,5 +318,16 @@
 			<a href="#"></a>
 		</div>
 		
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			
+			//获得slider插件对象(自动轮播)
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+			  interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		</script>
 	</body>
 </html>
