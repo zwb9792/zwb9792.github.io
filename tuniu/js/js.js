@@ -7,7 +7,7 @@ window.onload = function() {
 	meta.content = 'width=device-width,user-scalable=no,initial-scale=' + num + ',maximum-scale=' + num + ',minimum-scale=' + num;
 	head.appendChild(meta);
 	var scaling = view().w / 18;
-	html.style.fontSize = scaling + 'px';
+	html.style.fontSize = scaling + 'px';http://127.0.0.1:8020/tuniu/index.html#
 	var body = document.getElementsByTagName('body')[0];
 	body.style.width = view().w + 'px';
 	body.style.height = view().h + 'px';
