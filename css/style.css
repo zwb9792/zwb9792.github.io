@@ -1245,6 +1245,50 @@ span.border.two:after {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
+
+
+.hover-bg{
+    overflow: hidden;
+    position: relative;}
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 25% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	font-size: 30px;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+}
+.hover-bg .hover-text a{
+	text-decoration: none;
+	color: #fff;
+}
+.hover-bg:hover .hover-text>h4 {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.hover-bg:hover .hover-text {
+    opacity: 1;
+}
+
+
+
+
+
+
 /*-- responsive-design --*/
 @media(max-width:1366px){
 	.about-left-grid {
