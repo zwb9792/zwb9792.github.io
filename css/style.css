@@ -5,7 +5,8 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: "微软雅黑",sans-serif;
     font-size: 100%;
   	background: #FFf;
 }
@@ -1226,7 +1227,7 @@ span.border.two:after {
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 14px;
+	bottom: 80px;
 	right: 3%;
 	overflow: hidden;
 	width: 32px;
