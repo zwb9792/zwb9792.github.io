@@ -30,8 +30,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/music-play.js" type="text/javascript" charset="utf-8"></script>
 
 	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event) {
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
 				event.preventDefault();
 				$('html,body').animate({
 					scrollTop: $(this.hash).offset().top
@@ -41,1025 +41,972 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!---- start-smoth-scrolling---->
 </head>
+
 <body>
-	
-		
-	
-	
-<!-- container -->
+
+
+
+
+	<!-- container -->
 	<!-- header -->
-<div id="home" class="header">
-	<div class="container">
-		<!-- top-hedader -->
-		<div class="top-header">
-			<!-- /logo -->
-			<!--top-nav---->
-			<div class="top-nav">
-				<div class="navigation">
-					<div class="logo">
-						<h1><a href="index.html"><span>P</span>REFACE</a></h1>
-					</div>
-					<div class="navigation-right">
-						<span class="menu"><img src="images/menu.png" alt=" " /></span>
-						<nav class="link-effect-3" id="link-effect-3">
-							<ul class="nav1 nav nav-wil">
-								<li class="active">
-									<a data-hover="Home" href="index.html">Home</a>
-								</li>
-								<li>
-									<a class="scroll" data-hover="About" href="#about">About</a>
-								</li>
-								<li>
-									<a class="scroll" data-hover="Services" href="#services">Services</a>
-								</li>
-								<li>
-									<a class="scroll" data-hover="Experience" href="#work">Experience</a>
-								</li>
-								<li>
-									<a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a>
-								</li>
-								<li>
-									<a class="scroll" data-hover="Blog" href="#blogs">Blog</a>
-								</li>
-								<li>
-									<a class="scroll" data-hover="Contact" href="#contact">Contact</a>
-								</li>
-							</ul>
-						</nav>
-						<!-- script-for-menu -->
-						<script>
-							$("span.menu").click(function() {
-								$("ul.nav1").slideToggle(300, function() {
-									// Animation complete.
+	<div id="home" class="header">
+		<div class="container">
+			<!-- top-hedader -->
+			<div class="top-header">
+				<!-- /logo -->
+				<!--top-nav---->
+				<div class="top-nav">
+					<div class="navigation">
+						<div class="logo">
+							<h1><a href="index.html"><span>P</span>REFACE</a></h1>
+						</div>
+						<div class="navigation-right">
+							<span class="menu"><img src="images/menu.png" alt=" " /></span>
+							<nav class="link-effect-3" id="link-effect-3">
+								<ul class="nav1 nav nav-wil">
+									<li class="active">
+										<a data-hover="Home" href="index.html">Home</a>
+									</li>
+									<li>
+										<a class="scroll" data-hover="About" href="#about">About</a>
+									</li>
+									<li>
+										<a class="scroll" data-hover="Services" href="#services">Services</a>
+									</li>
+									<li>
+										<a class="scroll" data-hover="Experience" href="#work">Experience</a>
+									</li>
+									<li>
+										<a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a>
+									</li>
+									<li>
+										<a class="scroll" data-hover="Blog" href="#blogs">Blog</a>
+									</li>
+									<li>
+										<a class="scroll" data-hover="Contact" href="#contact">Contact</a>
+									</li>
+								</ul>
+							</nav>
+							<!-- script-for-menu -->
+							<script>
+								$("span.menu").click(function () {
+									$("ul.nav1").slideToggle(300, function () {
+										// Animation complete.
+									});
 								});
-							});
-						</script>
-						<!-- /script-for-menu -->
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<!-- /top-hedader -->
-			</div>
-			<div class="banner-info">
-				<div class="col-md-7 header-right">
-					<h1>Hi !</h1>
-					<h6>UX & UI Designer</h6>
-					<ul class="address">
-						<li>
-							<ul class="address-text">
-								<li><b>NAME</b></li>
-								<li>I'M Vincent</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>D.O.B</b></li>
-								<li>19-11-1991</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>PHONE </b></li>
-								<li>135 5361 3860</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>ADDRESS </b></li>
-								<li>广州黄埔区大沙北路豫章苑</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>E-MAIL </b></li>
-								<li>
-									<a href="mailto:example@mail.com">zwb9792@163.com</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>WEBSITE </b></li>
-								<li>
-									<a href="https://zwb9792.github.io/resume/">https://zwb9792.github.io/resume/</a>
-								</li>
-							</ul>
-						</li>
-
-					</ul>
-				</div>
-				<div class="col-md-5 header-left">
-					<img src="images/img1.jpg" alt="">
-				</div>
-				<div class="clearfix"> </div>
-
-			</div>
-		</div>
-	</div>
-</div>
-<!-- about -->
-<div id="about" class="about">
-	<div class="col-md-6 about-left">
-		<div id="owl-demo1" class="owl-carousel owl-carousel2">
-			<div class="item">
-				<div class="about-left-grid">
-					<h2>Hi! I'm <span>Vincent</span></h2>
-					<p>深度互联网从业人员，对互联网保持高度的敏感性和关注度，熟悉产品开发流程，有很强的产品规划、需求分析、交互设计能力，善于沟通，贴近用户。<br /> 为人诚恳，热衷于学习新技能新知识，包括前端与非前端。为人和善，能够和谐处理好与同事的关系，善于与人合作，衷情于互联网技术应用；
-						<br /> 希望找到一个更好的发展平台，充分发挥自己的优势，共同努力成就一番事业。
-					</p>
-					<ul>
-						<li>
-							<a class="a-btn-a scroll" href="#port">My Work</a>
-						</li>
-						<li>
-							<a class="a-btn-h scroll" href="#contact">Hire Me</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="item">
-				<div class="about-left-grid">
-					<h2>Hi! I'm <span>Vincent</span></h2>
-					<p>Lorems ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
-					<ul>
-						<li>
-							<a class="a-btn-a scroll" href="#port">My Work</a>
-						</li>
-						<li>
-							<a class="a-btn-h scroll" href="#contact">Hire Me</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="item">
-				<div class="about-left-grid">
-					<h2>Hi! I'm <span>Vincent</span></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
-					<ul>
-						<li>
-							<a class="a-btn-a scroll" href="#port">My Work</a>
-						</li>
-						<li>
-							<a class="a-btn-h scroll" href="#contact">Hire Me</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-6 about-right">
-
-	</div>
-	<div class="clearfix"> </div>
-	<link href="css/owl.carousel.css" rel="stylesheet">
-	<script src="js/owl.carousel.js"></script>
-	<script>
-		$(document).ready(function() {
-			$("#owl-demo1").owlCarousel({
-				items: 1,
-				lazyLoad: false,
-				autoPlay: true,
-				navigation: false,
-				navigationText: false,
-				pagination: true,
-			});
-		});
-	</script>
-	<!-- Feedback -->
-	<script>
-		$(document).ready(function() {
-			$("#owl-demo3").owlCarousel({
-				items: 1,
-				lazyLoad: false,
-				autoPlay: true,
-				navigation: false,
-				navigationText: true,
-				pagination: true,
-			});
-		});
-	</script>
-</div>
-<!-- /about -->
-<!-- services -->
-<div id="services" class="services">
-	<div class="container">
-		<div class="service-head one text-center ">
-			<h4>WHAT I DO</h4>
-			<h3>我的 <span>技术</span></h3>
-			<span class="border two"></span>
-		</div>
-		<!-- services-grids -->
-		<div class="wthree_about_right_grids w3l-agile">
-			<div class="col-md-6 wthree_about_right_grid">
-				<div class="col-xs-4 wthree_about_right_grid_left">
-					<div class="hvr-rectangle-in">
-						<i class="glyphicon glyphicon-pencil"></i>
-					</div>
-				</div>
-				<div class="col-xs-8 wthree_about_right_grid_right">
-					<h4>Web MAKE</h4>
-					<p>精通HTML、CSS和Javascript的网页开发技术<br /> 熟练Javascript脚本语言的面向对象写法，并经常用于封装一些简单的插件或功能
-						<br /> 熟练掌握主流web类库和响应式框架 如JQuery，bootstrap ，React.js等
-					</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 wthree_about_right_grid">
-				<div class="col-xs-4 wthree_about_right_grid_left">
-					<div class="hvr-rectangle-in">
-						<i class="glyphicon glyphicon-cog"></i>
-					</div>
-				</div>
-				<div class="col-xs-8 wthree_about_right_grid_right">
-					<h4>Web Design</h4>
-					<p>熟练使用HBuilder、sass、Notepad++等编辑器<br /> 熟练运用Photoshop软件对设计图进行切图等操作
-						<br /><br /><br />
-					</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 wthree_about_right_grid">
-				<div class="col-xs-4 wthree_about_right_grid_left">
-					<div class="hvr-rectangle-in">
-						<i class="glyphicon glyphicon-leaf"></i>
-					</div>
-				</div>
-				<div class="col-xs-8 wthree_about_right_grid_right">
-					<h4>DATA Rendering</h4>
-					<p>熟练DOM、BOM操作; 通过ajax和jsonp实现前端与后台进行数据交互渲染页面</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 wthree_about_right_grid">
-				<div class="col-xs-4 wthree_about_right_grid_left">
-					<div class="hvr-rectangle-in">
-						<i class="glyphicon glyphicon-gift"></i>
-					</div>
-				</div>
-				<div class="col-xs-8 wthree_about_right_grid_right">
-					<h4>Web Team</h4>
-					<p>熟悉github与git的多人协助开发</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-
-		<!-- services-grids -->
-	</div>
-</div>
-<!-- services -->
-<!--work-experience-->
-<div id="work" class="work">
-	<div class="container">
-		<div class="service-head text-center">
-			<h4>WHAT I DID</h4>
-			<h3>我的 <span>经验</span></h3>
-			<span class="border one"></span>
-		</div>
-		<div class="time-main w3l-agile">
-			<div class="col-md-6 year-info">
-				<ul class="year">
-					<li>2018</li>
-					<li>2017</li>
-					<li>2016</li>
-					<li>2015</li>
-					<li>2014</li>
-					<div class="clearfix"></div>
-				</ul>
-			</div>
-			<ul class="col-md-6 timeline">
-				<li>
-					<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">广东信拓网络公司科技有限公司</h4>
-						</div>
-						<div class="timeline-body">
-							<p> 1.广东网站建设，深圳网站建设，韶关网站建设<br /> 2.持续三年无售后投诉，600家客户共同见证！
-								<br /> 3.专注于网站建设，网络营销，网站设计，网站推广，手机网站建设,手机APP开发，微信营销等业务
-								<br />
-							</p>
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">广州多聚互联科技有限公司</h4>
-						</div>
-						<div class="timeline-body">
-							<p> 1.《超级俱乐部》APP开发<br /> 2.产品-设计-前端-ios、安卓-后台（服务器）-测试
-								<br /> 3.APP的版本升级
-								<br /> 4.修改bug，完善其功能
-							</p>
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">东莞浩智网络科技有限公司</h4>
-						</div>
-						<div class="timeline-body">
-							<p> 1.配合UI搭建网页框架，实现页面动态交互效果。<br /> 2.PC端页面和手机端页面的整体效果。
-								<br /> 3.页面的维护，包括代码的调试、bug修复、解决浏览器兼容问题。
-								<br /> 4.与后台PHP进行数据交互，动态渲染页面，实时更新页面。
-							</p>
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">COMPANY NAME</h4>
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
-					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">COMPANY NAME</h4>
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-						</div>
-					</div>
-				</li>
-			</ul>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//work-experience-->
-
-<!-- portfolio -->
-<div class="portfolio" id="port">
-	<div class="service-head text-center">
-		<h4>MY WORKS</h4>
-		<h3>我的 <span>作品</span></h3>
-		<span class="border"></span>
-	</div>
-	<div class="portfolio-grids">
-		<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#horizontalTab').easyResponsiveTabs({
-					type: 'default', //Types: default, vertical, accordion           
-					width: 'auto', //auto or any width like 600px
-					fit: true // 100% fit in a container
-				});
-			});
-		</script>
-		<div class="sap_tabs">
-			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-				<ul class="resp-tabs-list">
-					<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li>
-					<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>WEB DESIGN</span></li>
-					<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>MOBILE UI</span></li>
-					<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>ILLUSTRATIONS</span></li>
-				</ul>
-				<div class="resp-tabs-container">
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/resume" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="我的个人简历">我的个人简历</a></h4>
-								<br />
-								<small>前端工程师简历模板，fullpage个人简历模板</small>
-							</div>
-							<img src="images/pic4.jpg" alt="我的个人简历">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/myProject" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="杭州思漫奇文化">杭州思漫奇文化</a></h4>
-								<br />
-								<small>动画、响应式、PC端、移动端</small>
-							</div>
-							<img src="images/pic5.jpg" alt="杭州思漫奇文化">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/tuniu" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="途牛移动端">途牛移动端</a></h4>
-								<br />
-								<small>手机途牛页面</small>
-							</div>
-							<img src="images/pic9.jpg" alt="途牛移动端">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/music" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="豆瓣音乐">豆瓣音乐</a></h4>
-								<br />
-								<small>豆瓣音乐，调用其API接口传数据</small>
-							</div>
-							<img src="images/pic6.jpg" alt="豆瓣音乐">
-						</div>
-						<div class="col-md-3 team-gd yes_marg hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/mobile" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">五一E起游移动端</a></h4>
-								<br />
-								<small>景区评分，上传图片、视频</small>
-							</div>
-							<img src="images/pic10.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="col-md-3 team-gd yes_marg hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/game_plane" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="微信飞机大战">微信飞机大战</a></h4>
-								<br />
-								<small>仿微信飞机大战</small>
-							</div>
-							<img src="images/pic11.jpg" alt="微信飞机大战">
-						</div>
-						<div class="col-md-3 team-gd yes_marg hover-bg">
-							<div class="hover-text">
-								<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
-								<br />
-								<small>待上传</small>
-							</div>
-							<img src="images/pic13.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="col-md-3 team-gd yes_marg hover-bg">
-							<div class="hover-text">
-								<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
-								<br />
-								<small>待上传</small>
-							</div>
-							<img src="images/pic14.jpg" alt="五一E起游移动端">
+							</script>
+							<!-- /script-for-menu -->
 						</div>
 						<div class="clearfix"></div>
 					</div>
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/mobile" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">五一E起游移动端</a></h4>
-								<br />
-								<small>景区评分，上传图片、视频</small>
-							</div>
-							<img src="images/pic10.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/game_plane" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="微信飞机大战">微信飞机大战</a></h4>
-								<br />
-								<small>仿微信飞机大战</small>
-							</div>
-							<img src="images/pic11.jpg" alt="微信飞机大战">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
-								<br />
-								<small>待上传</small>
-							</div>
-							<img src="images/pic13.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/tuniu" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="途牛移动端">途牛移动端</a></h4>
-								<br />
-								<small>手机途牛页面</small>
-							</div>
-							<img src="images/pic9.jpg" alt="途牛移动端">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/music" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="豆瓣音乐">豆瓣音乐</a></h4>
-								<br />
-								<small>豆瓣音乐，调用其API接口传数据</small>
-							</div>
-							<img src="images/pic6.jpg" alt="豆瓣音乐">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/mobile" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">五一E起游移动端</a></h4>
-								<br />
-								<small>景区评分，上传图片、视频</small>
-							</div>
-							<img src="images/pic10.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/game_plane" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="微信飞机大战">微信飞机大战</a></h4>
-								<br />
-								<small>仿微信飞机大战</small>
-							</div>
-							<img src="images/pic11.jpg" alt="微信飞机大战">
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/mobile" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">五一E起游移动端</a></h4>
-								<br />
-								<small>景区评分，上传图片、视频</small>
-							</div>
-							<img src="images/pic10.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="https://zwb9792.github.io/game_plane" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="微信飞机大战">微信飞机大战</a></h4>
-								<br />
-								<small>仿微信飞机大战</small>
-							</div>
-							<img src="images/pic11.jpg" alt="微信飞机大战">
-						</div>
-						<div class="col-md-3 team-gd hover-bg">
-							<div class="hover-text">
-								<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
-								<br />
-								<small>待上传</small>
-							</div>
-							<img src="images/pic13.jpg" alt="五一E起游移动端">
-						</div>
-						<div class="clearfix"></div>
-					</div>
+					<!-- /top-hedader -->
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- //portfolio -->
-<!-- top-grids -->
-<div class="blog" id="blogs">
-	<div class="container">
-		<div class="service-head text-center">
-			<h4>BLOGS</h4>
-			<h3>我的 <span>博客</span></h3>
-			<span class="border one"></span>
-		</div>
-		<div class="news-grid w3l-agile">
-			<div class="col-md-6 news-img">
-				<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b1.jpg" alt=" " class="img-responsive"></a>
+				<div class="banner-info">
+					<div class="col-md-7 header-right">
+						<h1>Hi !</h1>
+						<h6>UX & UI Designer</h6>
+						<ul class="address">
+							<li>
+								<ul class="address-text">
+									<li><b>NAME</b></li>
+									<li>I'M Vincent</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>D.O.B</b></li>
+									<li>19-11-1991</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>PHONE </b></li>
+									<li>135 5361 3860</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>ADDRESS </b></li>
+									<li>广州黄埔区大沙北路豫章苑</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>E-MAIL </b></li>
+									<li>
+										<a href="mailto:example@mail.com">zwb9792@163.com</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>WEBSITE </b></li>
+									<li>
+										<a
+											href="https://zwb9792.github.io/resume/">https://zwb9792.github.io/resume/</a>
+									</li>
+								</ul>
+							</li>
 
-			</div>
-			<div class="col-md-6 news-text">
-				<h3> <a href="#" data-toggle="modal" data-target="#myModal1">杭州思漫奇文化</a></h3>
-				<ul class="news">
-					<li><i class="glyphicon glyphicon-user"></i>
-						<a href="javascript:;">Admin</a>
-					</li>
-					<li><i class="glyphicon glyphicon-comment"></i>
-						<a href="javascript:;">2 Comments</a>
-					</li>
-					<li><i class="glyphicon glyphicon-heart"></i>
-						<a href="javascript:;">50 Likes</a>
-					</li>
-					<li><i class="glyphicon glyphicon-tags"></i>
-						<a href="javascript:;">3 Tags</a>
-					</li>
-				</ul>
-				<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-				<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a>
-
-			</div>
-
-			<div class="clearfix"></div>
-		</div>
-		<div class="news-grid">
-
-			<div class="col-md-6 news-text two">
-				<h3> <a href="#" data-toggle="modal" data-target="#myModal1">豆瓣音乐</a></h3>
-				<ul class="news">
-					<li><i class="glyphicon glyphicon-user"></i>
-						<a href="javascript:;">Admin</a>
-					</li>
-					<li><i class="glyphicon glyphicon-comment"></i>
-						<a href="javascript:;">2 Comments</a>
-					</li>
-					<li><i class="glyphicon glyphicon-heart"></i>
-						<a href="javascript:;">50 Likes</a>
-					</li>
-					<li><i class="glyphicon glyphicon-tags"></i>
-						<a href="javascript:;">3 Tags</a>
-					</li>
-				</ul>
-				<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-				<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a>
-
-			</div>
-			<div class="col-md-6 news-img two">
-				<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b2.jpg" alt=" " class="img-responsive"></a>
-
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="news-grid">
-			<div class="col-md-6 news-img">
-				<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b3.jpg" alt=" " class="img-responsive"></a>
-
-			</div>
-			<div class="col-md-6 news-text">
-				<h3> <a href="javascript:;" data-toggle="modal" data-target="#myModal1">途牛移动端</a></h3>
-				<ul class="news">
-					<li><i class="glyphicon glyphicon-user"></i>
-						<a href="javascript:;">Admin</a>
-					</li>
-					<li><i class="glyphicon glyphicon-comment"></i>
-						<a href="javascript:;">2 Comments</a>
-					</li>
-					<li><i class="glyphicon glyphicon-heart"></i>
-						<a href="javascript:;">50 Likes</a>
-					</li>
-					<li><i class="glyphicon glyphicon-tags"></i>
-						<a href="javascript:;">3 Tags</a>
-					</li>
-				</ul>
-				<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-				<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a>
-
-			</div>
-
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- top-grids -->
-<!-- /blog-pop-->
-<div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog about" role="document">
-		<div class="modal-content about">
-			<div class="modal-header">
-				<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-			<div class="modal-body about">
-				<div class="about">
-
-					<div class="about-inner">
-
-						<img src="images/b3.jpg" alt="about" />
-						<h4 class="tittle">A Fews words about us</h4>
-						<p>Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor sit amet Integer gravida velit,Ming sits in the corner the whole day. She's into crochet. quis dolor tristiqumsan.Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. velit quis dolor tristiqumsan.</p>
-						<p>Lorem ipsum dolor sit amet. Integer gravida velit quis dolor tristiqumsan.anteposuerit litterarum formas humanitatis per seacula amet Integer gravida velit. </p>
+						</ul>
 					</div>
+					<div class="col-md-5 header-left">
+						<img src="images/img1.jpg" alt="">
+					</div>
+					<div class="clearfix"> </div>
 
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- //blog-pop-->
-
-<!-- /header -->
-<div class="footer" id="contact">
-	<div class="container">
-		<div class="service-head one text-center">
-			<h4>CONTACT ME</h4>
-			<h3>GET <span>IN TOUCH WITH ME</span></h3>
-			<span class="border two"></span>
-		</div>
-		<div class="mail_us">
-			<div class="col-md-6 mail_left">
-				<div class="contact-grid1-left">
-					<div class="contact-grid1-left1">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						<h4>Contact By Email</h4>
+	<!-- about -->
+	<div id="about" class="about">
+		<div class="col-md-6 about-left">
+			<div id="owl-demo1" class="owl-carousel owl-carousel2">
+				<div class="item">
+					<div class="about-left-grid">
+						<h2>Hi! I'm <span>Vincent</span></h2>
+						<p>深度互联网从业人员，对互联网保持高度的敏感性和关注度，熟悉产品开发流程，有很强的产品规划、需求分析、交互设计能力，善于沟通，贴近用户。<br />
+							为人诚恳，热衷于学习新技能新知识，包括前端与非前端。为人和善，能够和谐处理好与同事的关系，善于与人合作，衷情于互联网技术应用；
+							<br /> 希望找到一个更好的发展平台，充分发挥自己的优势，共同努力成就一番事业。
+						</p>
 						<ul>
-							<li>Mail:
-								<a href="mailto:www.471559037@163.com">zwb9792@163.com</a>
+							<li>
+								<a class="a-btn-a scroll" href="#port">My Work</a>
+							</li>
+							<li>
+								<a class="a-btn-h scroll" href="#contact">Hire Me</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="contact-grid1-left">
-					<div class="contact-grid1-left1">
-						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-						<h4>Contact By Phone</h4>
+				<div class="item">
+					<div class="about-left-grid">
+						<h2>Hi! I'm <span>Vincent</span></h2>
+						<p>Lorems ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+							ut perspiciatis.</p>
 						<ul>
-							<li>Phone: 135 5361 3860</li>
+							<li>
+								<a class="a-btn-a scroll" href="#port">My Work</a>
+							</li>
+							<li>
+								<a class="a-btn-h scroll" href="#contact">Hire Me</a>
+							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="contact-grid1-left">
-					<div class="contact-grid1-left1">
-						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-						<h4>Looking For Address</h4>
+				<div class="item">
+					<div class="about-left-grid">
+						<h2>Hi! I'm <span>Vincent</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+							ut perspiciatis.</p>
 						<ul>
-							<li>Address: Guangzhou </li>
+							<li>
+								<a class="a-btn-a scroll" href="#port">My Work</a>
+							</li>
+							<li>
+								<a class="a-btn-h scroll" href="#contact">Hire Me</a>
+							</li>
 						</ul>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 about-right">
+
+		</div>
+		<div class="clearfix"> </div>
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<script src="js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#owl-demo1").owlCarousel({
+					items: 1,
+					lazyLoad: false,
+					autoPlay: true,
+					navigation: false,
+					navigationText: false,
+					pagination: true,
+				});
+			});
+		</script>
+		<!-- Feedback -->
+		<script>
+			$(document).ready(function () {
+				$("#owl-demo3").owlCarousel({
+					items: 1,
+					lazyLoad: false,
+					autoPlay: true,
+					navigation: false,
+					navigationText: true,
+					pagination: true,
+				});
+			});
+		</script>
+	</div>
+	<!-- /about -->
+	<!-- services -->
+	<div id="services" class="services">
+		<div class="container">
+			<div class="service-head one text-center ">
+				<h4>WHAT I DO</h4>
+				<h3>我的 <span>技术</span></h3>
+				<span class="border two"></span>
+			</div>
+			<!-- services-grids -->
+			<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Web MAKE</h4>
+						<p>精通HTML、CSS和Javascript的网页开发技术<br /> 熟练Javascript脚本语言的面向对象写法，并经常用于封装一些简单的插件或功能
+							<br /> 熟练掌握主流web类库和响应式框架 如JQuery，bootstrap ，React.js等
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-cog"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Web Design</h4>
+						<p>熟练使用HBuilder、sass、Notepad++等编辑器<br /> 熟练运用Photoshop软件对设计图进行切图等操作
+							<br /><br /><br />
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>DATA Rendering</h4>
+						<p>熟练DOM、BOM操作; 通过ajax和jsonp实现前端与后台进行数据交互渲染页面</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Web Team</h4>
+						<p>熟悉github与git的多人协助开发</p>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
-
 			</div>
-			<div class="col-md-6 mail_right">
-				<form action="javascript:;" method="post">
-					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<input type="submit" value="Send">
 
-				</form>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="copy_right text-center">
-			<p>&copy; 2017 Preface . All rights reserved | Design by
-				<a href="http://w3layouts.com/" target="_blank">Vincent.</a>
-			</p>
-			<ul class="social-icons two">
-				<li>
-					<a href="javascript:;"> </a>
-				</li>
-				<li>
-					<a href="javascript:;" class="fb"> </a>
-				</li>
-				<li>
-					<a href="javascript:;" class="in"> </a>
-				</li>
-				<li>
-					<a href="javascript:;" class="dott"> </a> 
-				</li>
-			</ul>
+			<!-- services-grids -->
 		</div>
 	</div>
-</div>
-<!-- //footer -->
-			
-		<!-- /container -->
-		
-<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
-<!--底部盒子撑开-->
-	<!--<div class="box_bottom"></div>-->
-	
-	<!--定位盒子-->
-	<!--<div class="music_position">音乐盒子</div>-->
-	<!--播放开关-->
-		<!--<div class="music-type clearfix">
-			<a href="javascript:;" class="music">
-				<div class="music-img music-img1">
-
-				</div>
-				<img src="img/20141129013744_UJEuu.gif" alt="" />
-				<div class="mask">
-
-				</div>
-				<!--<div class="music-name">
-					午后红茶
-				</div>-->
-			<!--</a>
-			<a href="javascript:;" class="music">
-				<div class="music-img music-img2">
-
-				</div>
-				<img src="img/103624ova2a6mjom2ygbho.gif" alt="" />
-				<div class="mask">
-
-				</div>-->
-				<!--<div class="music-name">
-					工作学习
-				</div>-->
-			<!--</a>
-			<a href="javascript:;" class="music">
-				<div class="music-img music-img3">
-
-				</div>
-				<img src="img/20141204184751_NAH3T.thumb.700_0.gif" alt="" />
-				<div class="mask">
-
-				</div>
-				<!--<div class="music-name">
-					深夜居酒屋
-				</div>-->
-			<!--</a>
-			<a href="javascript:;" class="music">
-				<div class="music-img music-img4">
-
-				</div>
-				<img src="img/20141205182548_CLLmw.thumb.700_0.gif" alt="" />
-				<div class="mask">
-
-				</div>-->
-				<!--<div class="music-name">
-					周末聚会
-				</div>-->
-			<!--</a>
-			<a href="javascript:;" class="music">
-				<div class="music-img music-img5">
-
-				</div>
-				<img src="img/20141204131701_cfcFV.thumb.700_0.gif" alt="" />
-				<div class="mask">
-
-				</div>-->
-				<!--<div class="music-name">
-					放松心情
-				</div>-->
-			<!--</a>
-		</div>-->
-	<!--开关结束-->
-	
-	<!--播放器-->
-		
-		<!--<div class="music-box">
-			<div class="panel-left">
-				<i class="btn icon-step-backward  icon-2x backward"></i>
-				<i class="btn icon-step-forward icon-2x forward"></i>
-				<button class="icon-play icon-large play"></button>
+	<!-- services -->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+				<h4>WHAT I DID</h4>
+				<h3>我的 <span>经验</span></h3>
+				<span class="border one"></span>
 			</div>
-			<div class="panel-center">
-				<a href="javescript:;">
-					<img src="img/f0fc26f17b1b61a73540d0297f7cca71.png" />
-				</a>
-				<span class="musicN">听歌请点击右侧图片</span>
-				<div class="current-time">
-					0:00
+			<div class="time-main w3l-agile">
+				<div class="col-md-6 year-info">
+					<ul class="year">
+						<li>2018</li>
+						<li>2017</li>
+						<li>2016</li>
+						<li>2015</li>
+						<li>2014</li>
+						<div class="clearfix"></div>
+					</ul>
 				</div>
-				<div class="progress music-control">
-					<div class="progress-bar  progress-bar-success music-bar" role="progressbar" style="width: 0%;">
-
-					</div>
-					<div class="display-mouse">
-
-					</div>
-
-				</div>
-				<div class="music-time">0:00</div>
-			</div>
-			<div class="panel-right">
-				<i class="icon-refresh radom"></i>
-				<i class="icon-heart-empty like"></i>
-				<i class="icon-heart like" style="display: none;"></i>
-				<i class="icon-trash unlike"></i>
-				<div class="music-volume">
-					<div class="music-border">
-						<i class="icon-volume-down volume"></i>
-						<div class="volume-control">
-							<div class="volume-content">
-								<p></p>
+				<ul class="col-md-6 timeline">
+					<li>
+						<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">广东信拓网络公司科技有限公司</h4>
 							</div>
+							<div class="timeline-body">
+								<p> 1.广东网站建设，深圳网站建设，韶关网站建设<br /> 2.持续三年无售后投诉，600家客户共同见证！
+									<br /> 3.专注于网站建设，网络营销，网站设计，网站推广，手机网站建设,手机APP开发，微信营销等业务
+									<br />
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">广州多聚互联科技有限公司</h4>
+							</div>
+							<div class="timeline-body">
+								<p> 1.《超级俱乐部》APP开发<br /> 2.产品-设计-前端-ios、安卓-后台（服务器）-测试
+									<br /> 3.APP的版本升级
+									<br /> 4.修改bug，完善其功能
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">东莞浩智网络科技有限公司</h4>
+							</div>
+							<div class="timeline-body">
+								<p> 1.配合UI搭建网页框架，实现页面动态交互效果。<br /> 2.PC端页面和手机端页面的整体效果。
+									<br /> 3.页面的维护，包括代码的调试、bug修复、解决浏览器兼容问题。
+									<br /> 4.与后台PHP进行数据交互，动态渲染页面，实时更新页面。
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">COMPANY NAME</h4>
+							</div>
+							<div class="timeline-body">
+								<p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut
+									reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">COMPANY NAME</h4>
+							</div>
+							<div class="timeline-body">
+								<p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut
+									reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//work-experience-->
+
+	<!-- portfolio -->
+	<div class="portfolio" id="port">
+		<div class="service-head text-center">
+			<h4>MY WORKS</h4>
+			<h3>我的 <span>作品</span></h3>
+			<span class="border"></span>
+		</div>
+		<div class="portfolio-grids">
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true // 100% fit in a container
+					});
+				});
+			</script>
+			<div class="sap_tabs">
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list">
+						<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>WEB DESIGN</span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>MOBILE UI</span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>ILLUSTRATIONS</span></li>
+					</ul>
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/resume"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="我的个人简历">我的个人简历</a></h4>
+									<br />
+									<small>前端工程师简历模板，fullpage个人简历模板</small>
+								</div>
+								<img src="images/pic4.jpg" alt="我的个人简历">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/myProject"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="杭州思漫奇文化">杭州思漫奇文化</a></h4>
+									<br />
+									<small>动画、响应式、PC端、移动端</small>
+								</div>
+								<img src="images/pic5.jpg" alt="杭州思漫奇文化">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/tuniu"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="途牛移动端">途牛移动端</a></h4>
+									<br />
+									<small>手机途牛页面</small>
+								</div>
+								<img src="images/pic9.jpg" alt="途牛移动端">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/music"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="豆瓣音乐">豆瓣音乐</a></h4>
+									<br />
+									<small>豆瓣音乐，调用其API接口传数据</small>
+								</div>
+								<img src="images/pic6.jpg" alt="豆瓣音乐">
+							</div>
+							<div class="col-md-3 team-gd yes_marg hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/mobile"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="五一E起游移动端">五一E起游移动端</a></h4>
+									<br />
+									<small>景区评分，上传图片、视频</small>
+								</div>
+								<img src="images/pic10.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="col-md-3 team-gd yes_marg hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/game_plane"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="微信飞机大战">微信飞机大战</a></h4>
+									<br />
+									<small>仿微信飞机大战</small>
+								</div>
+								<img src="images/pic11.jpg" alt="微信飞机大战">
+							</div>
+							<div class="col-md-3 team-gd yes_marg hover-bg">
+								<div class="hover-text">
+									<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go"
+											data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
+									<br />
+									<small>待上传</small>
+								</div>
+								<img src="images/pic13.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="col-md-3 team-gd yes_marg hover-bg">
+								<div class="hover-text">
+									<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go"
+											data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
+									<br />
+									<small>待上传</small>
+								</div>
+								<img src="images/pic14.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/mobile"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="五一E起游移动端">五一E起游移动端</a></h4>
+									<br />
+									<small>景区评分，上传图片、视频</small>
+								</div>
+								<img src="images/pic10.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/game_plane"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="微信飞机大战">微信飞机大战</a></h4>
+									<br />
+									<small>仿微信飞机大战</small>
+								</div>
+								<img src="images/pic11.jpg" alt="微信飞机大战">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go"
+											data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
+									<br />
+									<small>待上传</small>
+								</div>
+								<img src="images/pic13.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/tuniu"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="途牛移动端">途牛移动端</a></h4>
+									<br />
+									<small>手机途牛页面</small>
+								</div>
+								<img src="images/pic9.jpg" alt="途牛移动端">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/music"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="豆瓣音乐">豆瓣音乐</a></h4>
+									<br />
+									<small>豆瓣音乐，调用其API接口传数据</small>
+								</div>
+								<img src="images/pic6.jpg" alt="豆瓣音乐">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/mobile"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="五一E起游移动端">五一E起游移动端</a></h4>
+									<br />
+									<small>景区评分，上传图片、视频</small>
+								</div>
+								<img src="images/pic10.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/game_plane"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="微信飞机大战">微信飞机大战</a></h4>
+									<br />
+									<small>仿微信飞机大战</small>
+								</div>
+								<img src="images/pic11.jpg" alt="微信飞机大战">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/mobile"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="五一E起游移动端">五一E起游移动端</a></h4>
+									<br />
+									<small>景区评分，上传图片、视频</small>
+								</div>
+								<img src="images/pic10.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="https://zwb9792.github.io/game_plane"
+											class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"
+											title="微信飞机大战">微信飞机大战</a></h4>
+									<br />
+									<small>仿微信飞机大战</small>
+								</div>
+								<img src="images/pic11.jpg" alt="微信飞机大战">
+							</div>
+							<div class="col-md-3 team-gd hover-bg">
+								<div class="hover-text">
+									<h4><a href="javascript:;" class="portfolio-link b-link-diagonal b-animate-go"
+											data-toggle="modal" title="五一E起游移动端">暂无</a></h4>
+									<br />
+									<small>待上传</small>
+								</div>
+								<img src="images/pic13.jpg" alt="五一E起游移动端">
+							</div>
+							<div class="clearfix"></div>
 						</div>
 					</div>
 				</div>
-				<i class="icon-music music-icon"></i>
 			</div>
-		</div>-->
-	<!--播放器结束-->
-	
-	
-	
-	
-	
-	
-	
-<!--start-smooth-scrolling-->
+		</div>
+	</div>
+	<!-- //portfolio -->
+	<!-- top-grids -->
+	<div class="blog" id="blogs">
+		<div class="container">
+			<div class="service-head text-center">
+				<h4>BLOGS</h4>
+				<h3>我的 <span>博客</span></h3>
+				<span class="border one"></span>
+			</div>
+			<div class="news-grid w3l-agile">
+				<div class="col-md-6 news-img">
+					<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b1.jpg" alt=" "
+							class="img-responsive"></a>
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		/*
-		var defaults = {
-  			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
- 		};
-		*/
+				</div>
+				<div class="col-md-6 news-text">
+					<h3> <a href="#" data-toggle="modal" data-target="#myModal1">杭州思漫奇文化</a></h3>
+					<ul class="news">
+						<li><i class="glyphicon glyphicon-user"></i>
+							<a href="javascript:;">Admin</a>
+						</li>
+						<li><i class="glyphicon glyphicon-comment"></i>
+							<a href="javascript:;">2 Comments</a>
+						</li>
+						<li><i class="glyphicon glyphicon-heart"></i>
+							<a href="javascript:;">50 Likes</a>
+						</li>
+						<li><i class="glyphicon glyphicon-tags"></i>
+							<a href="javascript:;">3 Tags</a>
+						</li>
+					</ul>
+					<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+						consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem
+						ipsum quia dolor sit amet.</p>
+					<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read
+						More</a>
 
-		$().UItoTop({
-			easingType: 'easeOutQuart'
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+			<div class="news-grid">
+
+				<div class="col-md-6 news-text two">
+					<h3> <a href="#" data-toggle="modal" data-target="#myModal1">豆瓣音乐</a></h3>
+					<ul class="news">
+						<li><i class="glyphicon glyphicon-user"></i>
+							<a href="javascript:;">Admin</a>
+						</li>
+						<li><i class="glyphicon glyphicon-comment"></i>
+							<a href="javascript:;">2 Comments</a>
+						</li>
+						<li><i class="glyphicon glyphicon-heart"></i>
+							<a href="javascript:;">50 Likes</a>
+						</li>
+						<li><i class="glyphicon glyphicon-tags"></i>
+							<a href="javascript:;">3 Tags</a>
+						</li>
+					</ul>
+					<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+						consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem
+						ipsum quia dolor sit amet.</p>
+					<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read
+						More</a>
+
+				</div>
+				<div class="col-md-6 news-img two">
+					<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b2.jpg" alt=" "
+							class="img-responsive"></a>
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="news-grid">
+				<div class="col-md-6 news-img">
+					<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b3.jpg" alt=" "
+							class="img-responsive"></a>
+
+				</div>
+				<div class="col-md-6 news-text">
+					<h3> <a href="javascript:;" data-toggle="modal" data-target="#myModal1">途牛移动端</a></h3>
+					<ul class="news">
+						<li><i class="glyphicon glyphicon-user"></i>
+							<a href="javascript:;">Admin</a>
+						</li>
+						<li><i class="glyphicon glyphicon-comment"></i>
+							<a href="javascript:;">2 Comments</a>
+						</li>
+						<li><i class="glyphicon glyphicon-heart"></i>
+							<a href="javascript:;">50 Likes</a>
+						</li>
+						<li><i class="glyphicon glyphicon-tags"></i>
+							<a href="javascript:;">3 Tags</a>
+						</li>
+					</ul>
+					<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+						consequatur aut perferendis doloribus asperiores repellat. Neque porro quisquam est, qui dolorem
+						ipsum quia dolor sit amet.</p>
+					<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read
+						More</a>
+
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- top-grids -->
+	<!-- /blog-pop-->
+	<div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog about" role="document">
+			<div class="modal-content about">
+				<div class="modal-header">
+					<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body about">
+					<div class="about">
+
+						<div class="about-inner">
+
+							<img src="images/b3.jpg" alt="about" />
+							<h4 class="tittle">A Fews words about us</h4>
+							<p>Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor sit amet Integer gravida
+								velit,Ming sits in the corner the whole day. She's into crochet. quis dolor
+								tristiqumsan.Mirum est notare quam littera gothica, quam nunc putamus parum claram,
+								anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+								velit quis dolor tristiqumsan.</p>
+							<p>Lorem ipsum dolor sit amet. Integer gravida velit quis dolor tristiqumsan.anteposuerit
+								litterarum formas humanitatis per seacula amet Integer gravida velit. </p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //blog-pop-->
+
+	<!-- /header -->
+	<div class="footer" id="contact">
+		<div class="container">
+			<div class="service-head one text-center">
+				<h4>CONTACT ME</h4>
+				<h3>GET <span>IN TOUCH WITH ME</span></h3>
+				<span class="border two"></span>
+			</div>
+			<div class="mail_us">
+				<div class="col-md-6 mail_left">
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							<h4>Contact By Email</h4>
+							<ul>
+								<li>Mail:
+									<a href="mailto:www.471559037@163.com">zwb9792@163.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>Contact By Phone</h4>
+							<ul>
+								<li>Phone: 135 5361 3860</li>
+							</ul>
+						</div>
+					</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>Looking For Address</h4>
+							<ul>
+								<li>Address: Guangzhou </li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+
+				</div>
+				<div class="col-md-6 mail_right">
+					<form action="javascript:;" method="post">
+						<input type="text" name="Name" value="Name" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="email" name="Email" value="Email" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+						<textarea name="Message..." onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Message...';}"
+							required="">Message...</textarea>
+						<input type="submit" value="Send">
+
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="copy_right text-center">
+				<p>&copy; 2017 Preface . All rights reserved | Design by
+					<a href="http://w3layouts.com/" target="_blank">Vincent.</a>
+				</p>
+				<ul class="social-icons two">
+					<li>
+						<a href="javascript:;"></a>
+					</li>
+					<li>
+						<a href="javascript:;" class="fb"> </a>
+					</li>
+					<li>
+						<a href="javascript:;" class="in"> </a>
+					</li>
+					<li>
+						<a href="javascript:;" class="dott"> </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+
+	<!-- /container -->
+
+	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+	<!--start-smooth-scrolling-->
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+					containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
 		});
+	</script>
+	<!--end-smooth-scrolling-->
+	<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
 
-	});
-</script>
-<!--end-smooth-scrolling-->
-<!-- //for bootstrap working -->
-<script src="js/bootstrap.js"></script>
-
-<style>
-	@media screen and (max-width: 1270px){
-		#mycanvas{
-			display: none;
+	<style>
+		@media screen and (max-width: 1270px) {
+			#mycanvas {
+				display: none;
+			}
 		}
-	}
-</style>
-<canvas id="mycanvas" width="1200" height="500" style="position: absolute;top: 100px;left: calc(50% - 600px);"></canvas>
-    <script type="text/javascript">
-        var mycanvas = document.getElementById("mycanvas");
-        var ctx = mycanvas.getContext("2d");
-        //圆形类
-         function Circle(x,y,r,color){
-            this.x = x;
-            this.y = y;
-            this.r = r;
-            // 颜色的取值范围
-            this.color = "rgb("+ (parseInt(Math.random() * 240 ) + 9) + ","+ (parseInt(Math.random() * 220 )+18) +",203)";
-            //随机方向
-            this.dx = Math.random() * 12 - 7;
-            this.dy = Math.random() * 12 - 7;
-            //往数组中push自己
-            circleArr.push(this);
-         }
-         //渲染
-         Circle.prototype.render = function(){
-            //新建一条路径
-            ctx.beginPath();
-            //创建一个圆
-            ctx.arc(this.x, this.y, this.r, 0, Math.PI*2, true);
-            //设置样式颜色
-            ctx.fillStyle = this.color;
-            //通过填充路径的内容区域生成实心的图形
-            ctx.fill();
-         }
-         //更新
-         Circle.prototype.update = function(){
-            this.x += this.dx;
-            this.y += this.dy;
-            this.r--;
-            if(this.r < 0){
-                for (var i = 0; i < circleArr.length; i++) {
-                    if (circleArr[i] === this) {
-                        circleArr.splice(i,1);
-                    };
-                }
-                return false;
-            }
-            return true;
-         }
-         //创建一个数组
-         var circleArr = [];
-         //鼠标移动事件
-         mycanvas.onmousemove = function(event){
-            new Circle(event.clientX-370,event.clientY-100,30,"orange"); 
-         }
-         //设置定时器每20毫秒更新和渲染
-         setInterval(function(){
-            ctx.clearRect(0, 0, 1200, 500)
-            for (var i = 0; i < circleArr.length; i++) {
-                circleArr[i].update() && circleArr[i].render();
-            };
-         },20);
-    </script>
-	
-<script type="text/javascript">
-//鼠标点击弹出爱心
-!function(e, t, a) {
-    function r() {
-        for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
-        requestAnimationFrame(r)
-    }
-    function n() {
-        var t = "function" == typeof e.onclick && e.onclick;
-        e.onclick = function(e) {
-            t && t(),
-            o(e)
-        }
-    }
-    function o(e) {
-        var a = t.createElement("div");
-        a.className = "heart",
-        s.push({
-            el: a,
-            x: e.clientX - 5,
-            y: e.clientY - 5,
-            scale: 1,
-            alpha: 1,
-            color: c()
-        }),
-        t.body.appendChild(a)
-    }
-    function i(e) {
-        var a = t.createElement("style");
-        a.type = "text/css";
-        try {
-            a.appendChild(t.createTextNode(e))
-        } catch(t) {
-            a.styleSheet.cssText = e
-        }
-        t.getElementsByTagName("head")[0].appendChild(a)
-    }
-    function c() {
-        return "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
-    }
-    var s = [];
-    e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
-    function(e) {
-        setTimeout(e, 1e3 / 60)
-    },
-    i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
-    n(),
-    r()
-} (window, document);
-</script>
-<script type="text/javascript"> 
-//不允许选中复制
-document.body.onselectstart=document.body.oncontextmenu=function(){ return false;} 
-document.body.oncopy=document.body.oncontextmenu=function(){ return false;} 
-</script>
-	
+	</style>
+	<canvas id="mycanvas" width="1200" height="500"
+		style="position: absolute;top: 100px;left: calc(50% - 600px);"></canvas>
+	<script type="text/javascript">
+		var mycanvas = document.getElementById("mycanvas");
+		var ctx = mycanvas.getContext("2d");
+		//圆形类
+		function Circle(x, y, r, color) {
+			this.x = x;
+			this.y = y;
+			this.r = r;
+			// 颜色的取值范围
+			this.color = "rgb(" + (parseInt(Math.random() * 240) + 9) + "," + (parseInt(Math.random() * 220) + 18) + ",203)";
+			//随机方向
+			this.dx = Math.random() * 12 - 7;
+			this.dy = Math.random() * 12 - 7;
+			//往数组中push自己
+			circleArr.push(this);
+		}
+		//渲染
+		Circle.prototype.render = function () {
+			//新建一条路径
+			ctx.beginPath();
+			//创建一个圆
+			ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, true);
+			//设置样式颜色
+			ctx.fillStyle = this.color;
+			//通过填充路径的内容区域生成实心的图形
+			ctx.fill();
+		}
+		//更新
+		Circle.prototype.update = function () {
+			this.x += this.dx;
+			this.y += this.dy;
+			this.r--;
+			if (this.r < 0) {
+				for (var i = 0; i < circleArr.length; i++) {
+					if (circleArr[i] === this) {
+						circleArr.splice(i, 1);
+					};
+				}
+				return false;
+			}
+			return true;
+		}
+		//创建一个数组
+		var circleArr = [];
+		//鼠标移动事件
+		mycanvas.onmousemove = function (event) {
+			new Circle(event.clientX - 370, event.clientY - 100, 30, "orange");
+		}
+		//设置定时器每20毫秒更新和渲染
+		setInterval(function () {
+			ctx.clearRect(0, 0, 1200, 500)
+			for (var i = 0; i < circleArr.length; i++) {
+				circleArr[i].update() && circleArr[i].render();
+			};
+		}, 20);
+	</script>
+
+	<script type="text/javascript">
+		//鼠标点击弹出爱心
+		!function (e, t, a) {
+			function r() {
+				for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y-- , s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+				requestAnimationFrame(r)
+			}
+			function n() {
+				var t = "function" == typeof e.onclick && e.onclick;
+				e.onclick = function (e) {
+					t && t(),
+						o(e)
+				}
+			}
+			function o(e) {
+				var a = t.createElement("div");
+				a.className = "heart",
+					s.push({
+						el: a,
+						x: e.clientX - 5,
+						y: e.clientY - 5,
+						scale: 1,
+						alpha: 1,
+						color: c()
+					}),
+					t.body.appendChild(a)
+			}
+			function i(e) {
+				var a = t.createElement("style");
+				a.type = "text/css";
+				try {
+					a.appendChild(t.createTextNode(e))
+				} catch (t) {
+					a.styleSheet.cssText = e
+				}
+				t.getElementsByTagName("head")[0].appendChild(a)
+			}
+			function c() {
+				return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+			}
+			var s = [];
+			e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame ||
+				function (e) {
+					setTimeout(e, 1e3 / 60)
+				},
+				i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),
+				n(),
+				r()
+		}(window, document);
+	</script>
+	<script type="text/javascript">
+		//不允许选中复制
+		document.body.onselectstart = document.body.oncontextmenu = function () { return false; }
+		document.body.oncopy = document.body.oncontextmenu = function () { return false; } 
+	</script>
 </body>
 </html>
-
